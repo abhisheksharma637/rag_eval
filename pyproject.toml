@@ -1,7 +1,25 @@
 [project]
-name = "experiments"
+name = "ms-frame"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "ipykernel>=7.1.0",
+    "langchain>=1.2.4",
+    "langchain-anthropic>=1.3.1",
+    "langchain-community>=0.4.1",
+    "langchain-groq>=1.1.1",
+    "langchain-huggingface>=1.2.0",
+    "langchain-tavily>=0.2.17",
+    "langgraph-api>=0.7.13",
+    "langgraph-cli>=0.4.12",
+    "langsmith>=0.6.2",
+    "openevals>=0.1.3",
+    "opentelemetry-instrumentation-openai-v2>=2.3b0",
+    "opentelemetry-sdk>=1.39.0",
+    "pandas>=2.3.3",
+    "pypdf>=6.6.0",
+    "python-dotenv>=1.2.1",
+]
